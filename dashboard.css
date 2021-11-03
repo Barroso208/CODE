@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100vw;
+    height:auto;
+    overflow-x:hidden;
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: 35px "montserrat";
+    color: #ffffff;
+}
+.añadir{
+    width: 5em;
+    height: 2.5em;
+    color: #ffffff;
+    background-color: rgb(184, 0, 159);
+    border-style: none;
+    border-radius: 1em;
+    position: relative;
+    left: 40px;
+}
+.añadir:hover{
+    color:black;
+    background-color: rgb(4, 180, 180);
+}
+.menu{
+    width: 80vw;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    font:20px "raleway";
+    color:#ffffff;
+}
+.contenedor{
+    width:80vw;
+    max-width:1200px;
+    height:80vh;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    list-style: none;
+    border-radius: 20px;
+}
+.mini-contenedor{
+    width:120px;
+    height:140px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    transition: position ease-in-out 1s, transform 0.5s;
+}
+.mini-contenedor:hover{
+    transform: scale(1.06);
+    position: relative;
+    top:-10px;
+}
+.div-c{
+    width: inherit;
+    height:inherit;
+}
+.enlace-iconos{
+    width:inherit;
+    height:inherit;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.img{
+    width:96px;
+    height:96px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding:6px;
+    background-color: #3a3939;
+}
+.img:hover{
+    background-color: #6b6a6a9f;
+}
+.texto{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height:30px;
+    overflow-x: hidden;
+    color:white;
+    font:0.9rem "raleway";
+    text-shadow: 2px 2px 3px black;
+}
+.bloque{
+    position:absolute;
+    width: 35vw;
+    height: 50vh;
+    padding: 5vh 5vw;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start ;
+    background-color: rgb(156, 156, 156);
+    display: none;
+}
+.bloque2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bloque>div{
+    color:white;
+    font: 16px "raleway";
+}
+
+
+
+
+.desplegable{
+    width: 528px;
+    height: 315px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 8px;
+    border: 0.5px solid rgb(124, 124, 124);
+}
+
